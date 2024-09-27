@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f7f1;
+}
+
+.title-main {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2.5em;
+    font-family: 'Georgia', serif;
+    color: #444;
+}
+
+.title-desc {
+    text-align: center;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.image {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #ccc;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-desc {
+    text-align: center;
+    padding: 0 100px 0 100px;
+    font-style: italic;
+    color: #555;
+}
+
+.timeline-title {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+li {
+    padding-top: 20px;
+    max-width: 600px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-left: 4px solid #f0b429;
+    padding: 10px;
+    list-style: none;
+    font-size: 1.1em;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.comment {
+    padding: 50px;
+    text-align: center;
+    background-color: #f0f0f0;
+    font-style: italic;
+    color: #444;
+}
+
+
+@media (max-width: 768px) {
+    .list {
+        padding: 0 20px;
+    }
+
+    .image-desc {
+        padding: 0 20px;
+    }
+}
